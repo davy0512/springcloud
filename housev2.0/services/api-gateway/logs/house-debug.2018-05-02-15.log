@@ -1,0 +1,14 @@
+2018-05-02 15:55:18.462  [http-nio-8083-exec-1] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-1cid - ==> Parameters: 
+2018-05-02 15:55:18.857  [http-nio-8083-exec-1] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-1cid - <==      Total: 4
+2018-05-02 15:56:03.167  [http-nio-8083-exec-3] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-3cid - ==>  Preparing: select id, name , address , phone , email , about_us , mobile , web_site from agency 
+2018-05-02 15:56:03.167  [http-nio-8083-exec-3] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-3cid - ==> Parameters: 
+2018-05-02 15:56:03.169  [http-nio-8083-exec-3] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-3cid - <==      Total: 4
+2018-05-02 15:57:15.275  [http-nio-8083-exec-4] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-4cid - ==>  Preparing: select id, name , address , phone , email , about_us , mobile , web_site from agency 
+2018-05-02 15:57:15.276  [http-nio-8083-exec-4] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-4cid - ==> Parameters: 
+2018-05-02 15:57:15.281  [http-nio-8083-exec-4] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-4cid - <==      Total: 4
+2018-05-02 15:58:51.123  [http-nio-8083-exec-6] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-6cid - ==>  Preparing: select id, name , address , phone , email , about_us , mobile , web_site from agency 
+2018-05-02 15:58:51.123  [http-nio-8083-exec-6] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-6cid - ==> Parameters: 
+2018-05-02 15:58:51.128  [http-nio-8083-exec-6] DEBUG [com.mooc.house.user.mapper.AgencyMapper.select:] http-nio-8083-exec-6cid - <==      Total: 4
+2018-05-02 15:59:13.543  [http-nio-8083-exec-7] DEBUG [com.mooc.house.user.mapper.UserMapper.select:] http-nio-8083-exec-7cid - ==>  Preparing: select id, name, phone, email, aboutme, passwd, avatar, type, create_time, enable, agency_id from user WHERE email = ? and passwd = ? and enable = ? 
+2018-05-02 15:59:13.547  [http-nio-8083-exec-7] DEBUG [com.mooc.house.user.mapper.UserMapper.select:] http-nio-8083-exec-7cid - ==> Parameters: spring_boot@163.com(String), 9774f20408063cc19ac79e8afff1b59e(String), 1(Integer)
+2018-05-02 15:59:13.589  [http-nio-8083-exec-7] DEBUG [com.mooc.house.user.mapper.UserMapper.select:] http-nio-8083-exec-7cid - <==      Total: 0

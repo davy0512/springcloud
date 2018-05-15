@@ -1,0 +1,4 @@
+2018-05-11 15:03:26.021 [main] WARN  [org.springframework.context.annotation.ConfigurationClassPostProcessor:373] maincid - Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2018-05-11 15:03:42.714 [main] WARN  [org.springframework.boot.starter.redis.RedisStarterDeprecationWarningAutoConfiguration:43] maincid - spring-boot-starter-redis is deprecated as of Spring Boot 1.4, please migrate to spring-boot-starter-data-redis
+2018-05-11 15:03:42.892 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] maincid - No URLs will be polled as dynamic configuration sources.
+2018-05-11 15:03:42.945 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] maincid - No URLs will be polled as dynamic configuration sources.

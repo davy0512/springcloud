@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "spring.druid",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.mooc.house.user.config.DruidConfig",
+      "sourceMethod": "dataSource(com.alibaba.druid.filter.Filter)"
+    },
+    {
+      "name": "spring.httpclient",
+      "type": "com.mooc.house.user.config.HttpClientProperties",
+      "sourceType": "com.mooc.house.user.config.HttpClientProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.httpclient.agent",
+      "type": "java.lang.String",
+      "sourceType": "com.mooc.house.user.config.HttpClientProperties",
+      "defaultValue": "agent"
+    },
+    {
+      "name": "spring.httpclient.connect-time-out",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mooc.house.user.config.HttpClientProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "spring.httpclient.max-conn-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mooc.house.user.config.HttpClientProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "spring.httpclient.max-conn-totaol",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mooc.house.user.config.HttpClientProperties",
+      "defaultValue": 50
+    },
+    {
+      "name": "spring.httpclient.socket-time-out",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mooc.house.user.config.HttpClientProperties",
+      "defaultValue": 10000
+    }
+  ],
+  "hints": []
+}

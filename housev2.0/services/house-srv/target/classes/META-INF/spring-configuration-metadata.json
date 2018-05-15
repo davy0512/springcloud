@@ -1,0 +1,10 @@
+{
+  "groups": [{
+    "name": "spring.druid",
+    "type": "javax.sql.DataSource",
+    "sourceType": "com.mooc.house.hsrv.config.CommonConfig",
+    "sourceMethod": "dataSource(com.alibaba.druid.filter.Filter)"
+  }],
+  "properties": [],
+  "hints": []
+}

@@ -1,0 +1,40 @@
+{
+  "groups": [{
+    "name": "spring.httpclient",
+    "type": "com.mooc.house.api.config.HttpClientProperties",
+    "sourceType": "com.mooc.house.api.config.HttpClientProperties"
+  }],
+  "properties": [
+    {
+      "name": "spring.httpclient.agent",
+      "type": "java.lang.String",
+      "sourceType": "com.mooc.house.api.config.HttpClientProperties",
+      "defaultValue": "agent"
+    },
+    {
+      "name": "spring.httpclient.connect-time-out",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mooc.house.api.config.HttpClientProperties",
+      "defaultValue": 1000
+    },
+    {
+      "name": "spring.httpclient.max-conn-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mooc.house.api.config.HttpClientProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "spring.httpclient.max-conn-totaol",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mooc.house.api.config.HttpClientProperties",
+      "defaultValue": 50
+    },
+    {
+      "name": "spring.httpclient.socket-time-out",
+      "type": "java.lang.Integer",
+      "sourceType": "com.mooc.house.api.config.HttpClientProperties",
+      "defaultValue": 1000000
+    }
+  ],
+  "hints": []
+}

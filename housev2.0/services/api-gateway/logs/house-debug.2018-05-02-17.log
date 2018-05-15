@@ -1,0 +1,5 @@
+2018-05-02 17:47:30.983  [http-nio-8084-exec-9] DEBUG [com.mooc.house.hsrv.mapper.HouseMapper.selectHouse:] http-nio-8084-exec-9cid - ==> Parameters: 2(Integer), 0(Integer), 2(Integer)
+2018-05-02 17:47:31.524  [http-nio-8084-exec-9] DEBUG [com.mooc.house.hsrv.mapper.HouseMapper.selectHouse:] http-nio-8084-exec-9cid - <==      Total: 1
+2018-05-02 17:47:31.535  [http-nio-8084-exec-9] DEBUG [com.mooc.house.hsrv.mapper.HouseMapper.selectHouseCount:] http-nio-8084-exec-9cid - ==>  Preparing: select count(id) from house a inner join ( select house_id,user_id from house_user WHERE type = 1 ) b on a.id = b.house_id WHERE state = 1 and a.type = ? 
+2018-05-02 17:47:31.559  [http-nio-8084-exec-9] DEBUG [com.mooc.house.hsrv.mapper.HouseMapper.selectHouseCount:] http-nio-8084-exec-9cid - ==> Parameters: 2(Integer)
+2018-05-02 17:47:31.639  [http-nio-8084-exec-9] DEBUG [com.mooc.house.hsrv.mapper.HouseMapper.selectHouseCount:] http-nio-8084-exec-9cid - <==      Total: 1
